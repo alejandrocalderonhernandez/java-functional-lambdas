@@ -15,6 +15,7 @@ public class Data {
             new VideoGame("Red Dead Redemption",  "Adventure","Rockstar",       2018, 9.3)
     );
 
+
     Map<String, Double> RATINGS = Map.of(
             "The Last of Us",      9.5,
             "God of War",          9.4,
