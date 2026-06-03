@@ -2,6 +2,7 @@ package com.debuggeandoideas;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 public class Data {
 
@@ -15,7 +16,7 @@ public class Data {
             new VideoGame("Red Dead Redemption",  "Adventure","Rockstar",       2018, 9.3)
     );
 
-    Map<String, Double> RATINGS = Map.of(
+    public static Map<String, Double> RATINGS = Map.of(
             "The Last of Us",      9.5,
             "God of War",          9.4,
             "Hades",               9.2,
@@ -23,6 +24,11 @@ public class Data {
             "Red Dead Redemption", 9.3
     );
 
+
+    public static Optional<VideoGame> emptyGame   = Optional.empty();
+    public static Optional<VideoGame> presentGame = Optional.of(
+            new VideoGame("Geometry Dash", "Arcade", "Rob Top", 2014, 9.9)
+    );
 
 
 
