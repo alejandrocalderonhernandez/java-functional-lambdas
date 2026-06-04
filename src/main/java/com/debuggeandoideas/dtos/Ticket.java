@@ -6,5 +6,7 @@ public record Ticket(
         String category,     // GENERAL, VIP, PLATINUM
 
         double basePrice,
-        int quantity
+        int quantity,
+
+        User user
 ) {}
