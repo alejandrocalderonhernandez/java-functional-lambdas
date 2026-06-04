@@ -1,6 +1,5 @@
 package com.debuggeandoideas.validator;
 
-import com.debuggeandoideas.dtos.User;
 
 
 /**
